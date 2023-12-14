@@ -1,5 +1,5 @@
 {
-  "name": "@my-nx-project/source",
+  "name": "my-nx-project",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {},
@@ -14,6 +14,7 @@
     "@angular/platform-browser-dynamic": "~16.1.0",
     "@angular/router": "~16.1.0",
     "@nx/angular": "16.5.3",
+    "@rx-angular/state": "^17.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
@@ -48,6 +49,7 @@
     "jest-environment-jsdom": "^29.4.1",
     "jest-preset-angular": "~13.1.0",
     "nx": "16.5.3",
+    "nx-cloud": "latest",
     "prettier": "^2.6.2",
     "ts-jest": "^29.1.0",
     "ts-node": "10.9.1",

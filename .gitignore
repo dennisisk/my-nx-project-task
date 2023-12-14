@@ -39,3 +39,8 @@ testem.log
 Thumbs.db
 
 .angular
+*.json
+nx.json
+package-lock.json
+package.json
+tsconfig.base.json
