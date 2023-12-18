@@ -4,7 +4,8 @@ import { ApiServiceService, API_TOKEN } from './api-service.service';
 @NgModule({
   declarations: [],
   imports: [],
-  exports: []
+  exports: [],
+  providers: [],
 })
 export class ApiServiceModule {
   static forRoot(apiValue: string): ModuleWithProviders<ApiServiceModule> {

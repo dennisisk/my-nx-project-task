@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// eslint-disable-next-line @nx/enforce-module-boundaries
 import { ApiServiceService } from 'libs/my-library/src/lib/api-service.service';
 import { AppStateService } from './app-state.service';
 
@@ -10,6 +11,7 @@ import { AppStateService } from './app-state.service';
     <button (click)="decrement()">Decrement</button>
   `,
   styleUrls: ['./app.component.css'],
+  providers: [],
 })
 export class AppComponent {
   title = 'My App';
