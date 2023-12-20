@@ -8,11 +8,12 @@ import { ApiServiceService } from '../../../libs/my-library/src/lib/api-service.
   styleUrls: ['./component-a.component.css'],
 })
 export class ComponentAComponent {
-  data$ = this.apiService.getData();
 
   constructor(private apiService: ApiServiceService) {}
 
   ngOnInit() {
-    this.data$.subscribe((data) => console.log('Component A Data:', data));
+    this.apiService.getDataByid();
   }
+
+  data$ = this.apiService.select('data');
 }
