@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 // eslint-disable-next-line @nx/enforce-module-boundaries
-import { ApiServiceService } from '../../../libs/my-library/src/lib/api-service.service';
+import { ApiServiceService } from '../../../../libs/my-library/src/lib/api-service.service';
 import { NavigationEnd, Router } from '@angular/router';
 
 @Component({
